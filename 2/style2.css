@@ -1,0 +1,25 @@
+.wrap{
+    display: grid;
+    grid-template-rows: 30px 1fr 30px;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+header nav ul li{
+    float: left;
+    margin-left:20px ;
+}
+
+.bottom{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+main article{
+    display: table-cell;
+    width: 300px;
+    height: 200px;
+}

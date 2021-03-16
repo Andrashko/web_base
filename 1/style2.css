@@ -1,0 +1,77 @@
+body {
+    background-color: aqua;
+}
+
+h1 {
+    text-align: center;
+    color: darkred;
+}
+
+#liwithid{
+    font: 50px "Fira Sans", serif;
+}
+
+li.liwithclass{
+    font-weight: bolder;
+}
+
+ul{
+    list-style-type: square;
+}
+
+.wrap{
+    position: relative;
+}
+
+.firstcol{
+    width: 45%;
+    position: absolute;
+}
+
+.secondcol{
+    width: 50%;
+    position: absolute;
+    left: 50%;
+}
+
+#about{
+    position: relative;
+    top: 1500px;
+}
+
+.navbar{
+    list-style: none;
+    background-color: darkslateblue;
+    position: relative;
+    width: 100%;
+    height: 30px;
+}
+
+.navbar li{
+    float: left;
+    margin-left: 50px;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.navbar li a{
+    color: floralwhite;
+    text-decoration: none;
+}
+
+.navbar li :hover{
+    font-size: 30px;
+}
+
+h3 p.tooltip{
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    background-color: greenyellow;
+}
+
+h3:hover p.tooltip{
+    display: block;
+}
