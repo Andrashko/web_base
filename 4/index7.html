@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> Розклад дзвінків </title>
+</head>
+
+<body>
+    <form>
+        <label> Початок уроків <input type="time" id="beginTime" value="08:00"> </label>
+        <br>
+        <label> Тривалість уроку <input type="time" id="lessonDuration" value="01:30"> </label>
+        <br>
+        <label> Кількість уроків <input type="number" id="lessonCount" value="3"> </label>
+        <br>
+        <input type="button" value="розклад" onclick="findSchedule()">
+    </form>
+    <table id ="schedule"> 
+
+    </table>
+    <!--scripts-->
+    <script src="script7.js"></script>
+</body>
+
+</html>
