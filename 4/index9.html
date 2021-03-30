@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> Казино </title>
+    <link rel="stylesheet" href="./styles/style8.css">
+</head>
+
+<body>
+    <form> 
+        <label> 
+            Кількість елементів масиву
+            <input type="number" min="1" max="100" id="count" value="3">
+            
+        </label>
+        <input type="button" value="Згенерувати масив" onclick="generateArray()">
+        <br>
+        <label> 
+            Виберіть елемент
+            <input type="number" min="0" max="100" id="elementIndex" value="0">
+            <input type="button" value="Вибрати" onclick="selectElement()">
+        </label>
+        <br>
+        <input type="button" value="Відмова"onclick="finishGame()">
+        <br> 
+        <p> Ваш поточний загальний виграш складає <span id="totalWin">0</span></p>
+    </form>
+    <!--scripts-->
+    <script src="./scripts/script9.js"></script>
+</body>
+
+</html>
