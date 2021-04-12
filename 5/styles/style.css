@@ -1,0 +1,9 @@
+#todo, #todo td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+.doneTask{
+    background-color: darkseagreen;
+}
