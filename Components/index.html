@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> Components </title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body onclick="console.log('body')">
+    <form onsubmit="return false" onclick="console.log('form'); return false;">
+        <input type="text" name="search" oninput="filterList()"> 
+        <input type="button" name="sb" value="?" onclick="console.log('button')"> 
+    </form>
+    <h3> Список </h3>
+    <div id="list"> 
+        
+    </div>
+    
+    <!-- scripts -->
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>
