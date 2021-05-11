@@ -33,7 +33,7 @@ console.log(userProfile1.showAvatar());
 
 //фабрична функція (функція-фабрика)
 function UserFabric(login, password, id){
-    var result = {};
+    var result = Object.create({});
     result.login = login || "";
     result.password = password || "";
     result.id = id || -1;

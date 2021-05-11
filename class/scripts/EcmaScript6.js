@@ -35,9 +35,10 @@ class UserProfileClass extends UserClass{
 
 
 var userProfile3 = new UserProfileClass("yurii","123456",42, "img.jpg", "Юрій");
-console.log(userProfile2);
-console.log(userProfile2.showAvatar());
+console.log(userProfile3);
+console.log(userProfile3.showAvatar());
 console.log(userProfile3.passwordLen);
 userProfile3.avatarUrl = "htttp://img.jpg";
 console.log(userProfile3);
+console.log(UserProfileClass.showAvatar());
 userProfile3.avatarUrl = "";
